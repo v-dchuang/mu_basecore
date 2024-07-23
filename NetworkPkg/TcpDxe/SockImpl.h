@@ -12,6 +12,7 @@
 
 #include "Socket.h"
 #include "TcpMain.h"
+#include <Library/ReportStatusCodeLib.h>
 
 /**
   Signal a event with the given status.

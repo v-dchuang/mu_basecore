@@ -715,6 +715,7 @@ NiiError:
   if (!EFI_ERROR (Status)) {
     Status = EFI_DEVICE_ERROR;
   }
+  ReportStatusCode ((EFI_ERROR_MAJOR | EFI_ERROR_CODE), (EFI_IO_BUS_IP_NETWORK | EFI_IOB_EC_INTERFACE_ERROR));
 
   return Status;
 }

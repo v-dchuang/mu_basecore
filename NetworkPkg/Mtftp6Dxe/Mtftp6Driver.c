@@ -570,6 +570,7 @@ Mtftp6ServiceBindingCreateChild (
                   );
 
   if (EFI_ERROR (Status)) {
+    ReportStatusCode ((EFI_ERROR_MAJOR | EFI_ERROR_CODE), (EFI_IO_BUS_IP_NETWORK | EFI_IOB_EC_INTERFACE_ERROR));
     goto ON_ERROR;
   }
 

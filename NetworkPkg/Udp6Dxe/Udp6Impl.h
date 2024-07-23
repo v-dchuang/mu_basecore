@@ -25,6 +25,7 @@
 #include <Library/MemoryAllocationLib.h>
 #include <Library/DpcLib.h>
 #include <Library/PrintLib.h>
+#include <Library/ReportStatusCodeLib.h>
 
 #include "Udp6Driver.h"
 

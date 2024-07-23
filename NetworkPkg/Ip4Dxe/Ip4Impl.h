@@ -38,6 +38,7 @@ SPDX-License-Identifier: BSD-2-Clause-Patent
 #include <Library/DevicePathLib.h>
 #include <Library/HiiLib.h>
 #include <Library/UefiHiiServicesLib.h>
+#include <Library/ReportStatusCodeLib.h>
 
 #include "Ip4Common.h"
 #include "Ip4Driver.h"

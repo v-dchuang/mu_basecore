@@ -63,6 +63,7 @@
   BaseMemoryLib
   DebugLib
   NetLib
+  ReportStatusCodeLib
 
 [Guids]
   # MU_CHANGE - Use gMuEventPreExitBootServicesGuid for SnpDxe to issue PxeShutdown

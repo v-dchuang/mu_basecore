@@ -58,7 +58,7 @@
   DebugLib
   NetLib
   UdpIoLib
-
+  ReportStatusCodeLib
 
 [Protocols]
   gEfiUdp6ServiceBindingProtocolGuid                ## TO_START

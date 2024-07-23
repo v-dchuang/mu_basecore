@@ -38,6 +38,7 @@
 #include <Library/UefiHiiServicesLib.h>
 #include <Library/DevicePathLib.h>
 #include <Library/PrintLib.h>
+#include <Library/ReportStatusCodeLib.h>
 
 #include <Guid/MdeModuleHii.h>
 

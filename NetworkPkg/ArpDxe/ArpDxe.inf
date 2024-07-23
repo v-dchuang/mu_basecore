@@ -51,6 +51,7 @@
   DebugLib
   NetLib
   DpcLib
+  ReportStatusCodeLib
 
 [Protocols]
   gEfiArpServiceBindingProtocolGuid             ## BY_START

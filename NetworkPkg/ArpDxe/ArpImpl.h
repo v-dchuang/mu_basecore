@@ -24,6 +24,7 @@ SPDX-License-Identifier: BSD-2-Clause-Patent
 #include <Library/BaseMemoryLib.h>
 #include <Library/MemoryAllocationLib.h>
 #include <Library/DpcLib.h>
+#include <Library/ReportStatusCodeLib.h>
 
 //
 // Ethernet protocol type definitions.

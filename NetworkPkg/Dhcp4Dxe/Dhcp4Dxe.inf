@@ -45,7 +45,6 @@
   MdePkg/MdePkg.dec
   NetworkPkg/NetworkPkg.dec
 
-
 [LibraryClasses]
   BaseLib
   UefiLib
@@ -54,7 +53,7 @@
   DebugLib
   NetLib
   UdpIoLib
-
+  ReportStatusCodeLib
 
 [Protocols]
   gEfiDhcp4ServiceBindingProtocolGuid           ## BY_START

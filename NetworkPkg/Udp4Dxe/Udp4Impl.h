@@ -26,6 +26,7 @@ SPDX-License-Identifier: BSD-2-Clause-Patent
 #include <Library/TimerLib.h>
 #include <Library/DpcLib.h>
 #include <Library/PrintLib.h>
+#include <Library/ReportStatusCodeLib.h>
 
 #include "Udp4Driver.h"
 

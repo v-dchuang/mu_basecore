@@ -24,6 +24,7 @@
 #include <Library/BaseLib.h>
 #include <Library/NetLib.h>
 #include <Library/PrintLib.h>
+#include <Library/ReportStatusCodeLib.h>
 
 typedef struct _MTFTP6_SERVICE   MTFTP6_SERVICE;
 typedef struct _MTFTP6_INSTANCE  MTFTP6_INSTANCE;

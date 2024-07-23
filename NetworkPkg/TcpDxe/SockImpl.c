@@ -749,6 +749,7 @@ SockCreate (
        "SockCreate: Install TCP protocol in socket failed with %r\n",
        Status)
       );
+    ReportStatusCode ((EFI_ERROR_MAJOR | EFI_ERROR_CODE), (EFI_IO_BUS_IP_NETWORK | EFI_IOB_EC_INTERFACE_ERROR));
 
     goto OnError;
   }

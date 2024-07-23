@@ -471,6 +471,7 @@ MnpServiceBindingCreateChild (
        "MnpServiceBindingCreateChild: Failed to install the MNP protocol, %r.\n",
        Status)
       );
+    ReportStatusCode ((EFI_ERROR_MAJOR | EFI_ERROR_CODE), (EFI_IO_BUS_IP_NETWORK | EFI_IOB_EC_INTERFACE_ERROR));
 
     goto ErrorExit;
   }

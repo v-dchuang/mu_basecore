@@ -21,6 +21,7 @@ Abstract:
 #include <Library/UefiDriverEntryPoint.h>
 #include <Library/UefiBootServicesTableLib.h>
 #include <Library/MemoryAllocationLib.h>
+#include <Library/ReportStatusCodeLib.h>
 #include <Protocol/Dpc.h>
 
 //

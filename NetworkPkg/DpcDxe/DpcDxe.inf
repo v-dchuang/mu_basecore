@@ -36,6 +36,7 @@
   DebugLib
   UefiBootServicesTableLib
   MemoryAllocationLib
+  ReportStatusCodeLib
 
 [Protocols]
   gEfiDpcProtocolGuid                           ## PRODUCES

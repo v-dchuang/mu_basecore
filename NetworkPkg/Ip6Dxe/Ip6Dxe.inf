@@ -85,6 +85,7 @@
   DebugLib
   NetLib
   DpcLib
+  ReportStatusCodeLib
 
 [Protocols]
   gEfiManagedNetworkServiceBindingProtocolGuid     ## TO_START

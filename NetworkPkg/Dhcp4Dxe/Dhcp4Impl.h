@@ -25,6 +25,7 @@ SPDX-License-Identifier: BSD-2-Clause-Patent
 #include <Library/UefiLib.h>
 #include <Library/BaseLib.h>
 #include <Library/NetLib.h>
+#include <Library/ReportStatusCodeLib.h>
 
 typedef struct _DHCP_SERVICE   DHCP_SERVICE;
 typedef struct _DHCP_PROTOCOL  DHCP_PROTOCOL;

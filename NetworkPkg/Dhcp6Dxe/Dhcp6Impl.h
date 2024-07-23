@@ -30,6 +30,7 @@
 #include <Library/BaseLib.h>
 #include <Library/NetLib.h>
 #include <Library/PrintLib.h>
+#include <Library/ReportStatusCodeLib.h>
 #include <Guid/ZeroGuid.h>
 
 typedef struct _DHCP6_IA_CB     DHCP6_IA_CB;

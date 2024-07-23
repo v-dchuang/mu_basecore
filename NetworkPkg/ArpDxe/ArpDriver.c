@@ -603,6 +603,7 @@ ArpServiceBindingCreateChild (
                   );
   if (EFI_ERROR (Status)) {
     DEBUG ((DEBUG_ERROR, "ArpSBCreateChild: failed to install ARP protocol, %r.\n", Status));
+    ReportStatusCode ((EFI_ERROR_MAJOR | EFI_ERROR_CODE), (EFI_IO_BUS_IP_NETWORK | EFI_IOB_EC_INTERFACE_ERROR));
 
     FreePool (Instance);
     return Status;

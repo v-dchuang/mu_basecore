@@ -53,6 +53,7 @@
   IpIoLib
   NetLib
   DpcLib
+  ReportStatusCodeLib
 
 [Protocols]
   gEfiUdp4ServiceBindingProtocolGuid            ## BY_START

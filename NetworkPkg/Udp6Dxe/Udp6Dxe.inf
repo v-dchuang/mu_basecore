@@ -51,7 +51,7 @@
   IpIoLib
   NetLib
   DpcLib
-
+  ReportStatusCodeLib
 
 [Protocols]
   gEfiIp6ProtocolGuid                           ## TO_START

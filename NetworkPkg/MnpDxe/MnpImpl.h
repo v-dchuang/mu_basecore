@@ -10,6 +10,7 @@ SPDX-License-Identifier: BSD-2-Clause-Patent
 #define _MNP_IMPL_H_
 
 #include "MnpDriver.h"
+#include <Library/ReportStatusCodeLib.h>
 
 #define NET_ETHER_FCS_SIZE  4
 

@@ -81,6 +81,7 @@
   PrintLib
   DevicePathLib
   UefiHiiServicesLib
+  ReportStatusCodeLib
 
 [Protocols]
   ## BY_START
